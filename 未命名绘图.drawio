@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-22T13:10:27.465Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="UZa-Osn1Z7kiSP-mEC81" version="14.6.12" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-22T13:20:30.373Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="eX9MDn3Znzn3CFEP7L75" version="14.6.12" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1219" dy="2561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -201,6 +201,71 @@
             <mxPoint x="140" y="-760" as="targetPoint" />
             <mxPoint x="313" y="-760" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="XMyAMqQeNzmtMJznp1gP-79" value="manager: 经理" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-610" width="100" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="XMyAMqQeNzmtMJznp1gP-81" value="prc: PRController" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="-610" width="130" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="XMyAMqQeNzmtMJznp1gP-82" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="XMyAMqQeNzmtMJznp1gP-81">
+          <mxGeometry x="58" y="80" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="XMyAMqQeNzmtMJznp1gP-83" value="3.Return(isOK)" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" edge="1" parent="1" source="XMyAMqQeNzmtMJznp1gP-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="154.99999999999977" y="-378" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMyAMqQeNzmtMJznp1gP-84" value="1. PrintReport(ReportId, date)" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1" target="XMyAMqQeNzmtMJznp1gP-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="154.99999999999977" y="-530" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMyAMqQeNzmtMJznp1gP-85" value="2.create" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="379" y="-494" as="sourcePoint" />
+            <mxPoint x="560" y="-494" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMyAMqQeNzmtMJznp1gP-87" value="rf: ReportFile" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-520" width="100" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="XMyAMqQeNzmtMJznp1gP-89" value="interface:PrintReport" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-650" width="630" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="XMyAMqQeNzmtMJznp1gP-90" value="manager: 经理" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="-600" width="100" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="XMyAMqQeNzmtMJznp1gP-91" value="prc: PRController" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="-600" width="130" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="XMyAMqQeNzmtMJznp1gP-92" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="XMyAMqQeNzmtMJznp1gP-91">
+          <mxGeometry x="58" y="80" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="XMyAMqQeNzmtMJznp1gP-93" value="3.Return(isOK)" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" edge="1" parent="1" source="XMyAMqQeNzmtMJznp1gP-92">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="854.9999999999998" y="-368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMyAMqQeNzmtMJznp1gP-94" value="1. DeleteReport(ReportId, date)" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1" target="XMyAMqQeNzmtMJznp1gP-92">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="854.9999999999998" y="-520" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMyAMqQeNzmtMJznp1gP-95" value="2.delete" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1079" y="-484" as="sourcePoint" />
+            <mxPoint x="1259.9999999999998" y="-484" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMyAMqQeNzmtMJznp1gP-96" value="rf: ReportFile" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="-510" width="100" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="XMyAMqQeNzmtMJznp1gP-98" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="XMyAMqQeNzmtMJznp1gP-96">
+          <mxGeometry x="35" y="120" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XMyAMqQeNzmtMJznp1gP-97" value="interface:DeleteReport" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="-640" width="630" height="380" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
